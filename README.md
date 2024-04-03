@@ -18,6 +18,9 @@ $ docker-compose run --rm wp-cli install-wp
 $ docker-compose up -d
 $ docker-compose down
 ```
+## Configuration options
+
+You have to modify ip address within file /bin/install-wp.sh in case you want to run it in a remote server on your local network 
 
 ## Shell
 `docker exec -ti dvwp_wordpress_1 /bin/bash`
@@ -54,6 +57,9 @@ Feel free to contribute with pull requests ;)
   - CVE-2020-8771
   - NOT WORKING RIGHT NOW
 
+* [Added plugin WPS-hide-login] to practice bruteforce directory listing
+
+ 
 ### Otherz
 
 * Directory listing
